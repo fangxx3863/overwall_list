@@ -1,4 +1,4 @@
-# overwall_list
+# Small5_Openwrt固件Overwall插件规则备份
 OverWall的规则备份
 
 # 使用方法一（Win自带SSH可用）
