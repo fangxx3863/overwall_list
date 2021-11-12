@@ -1,11 +1,17 @@
 # overwall_list
 OverWall的规则备份
 
-# 使用方法
+# 使用方法一（Win自带SSH可用）
 
-ssh进入路由器执行
+ssh进入路由器
+
+K2P以外机型执行
 
 `curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/Overwall_Patch.sh|sh`
+
+K2P(16M/32M通用)执行
+
+`curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/Overwall_Patch_MIPS.sh|sh`
 
 # 使用方法二（无需额外软件）
 
@@ -27,6 +33,26 @@ ssh进入路由器执行
 
 ![2903AFBBA4B42543CB71253D7FCE7D20](https://user-images.githubusercontent.com/48589001/140941381-f12ffbf9-5bb4-40dc-817e-926f29aae891.png)
 
-粘贴一键脚本`curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/Overwall_Patch.sh|sh`回车运行
+粘贴一键脚本
+
+K2P以外机型执行
+
+`curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/Overwall_Patch.sh|sh`
+
+K2P(16M/32M通用)执行
+
+`curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/Overwall_Patch_MIPS.sh|sh`
+
+回车运行
 
 ![FA8FC319829E150ABFCBC06790D5034C](https://user-images.githubusercontent.com/48589001/140941431-63667503-442a-4241-bd72-aa47feabf1ee.png)
+
+# 恢复原始文件
+
+将上述教程中的命令修改为`curl https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/BackToStore.sh|sh`执行即可
+
+# 后记
+
+希望群主能够早日回来给我们更新固件吧！
+
+另外有两个文件实在找不到用在哪里的就没去理了
