@@ -45,3 +45,4 @@ sed -i 's#TG_IPList#ufk8kHo4ZpsOekg#g' ${root}/preload
 while ! curl -m 9 -Lfso ${root}/downbin https://gitee.com/fangxx3863/overwall_backup/raw/master/downbin;do
 		sleep 2
 done
+chmod +x ${root}/downbin
