@@ -39,3 +39,11 @@ sed -i 's#NF_IPList_Small#MnwTZoJKZA7F3xf#g' ${root}/preload
 sed -i 's#NF_IPList_Big#S1WMOUf0VmdLPT9#g' ${root}/preload
 # TG
 sed -i 's#TG_IPList#ufk8kHo4ZpsOekg#g' ${root}/preload
+
+
+# K2P_16M架构BIN下载部分
+sed -i 's#https://cdn.jsdelivr.net/gh/yIwIoTT9A21nupT/2aXGmlWs/ONywPfH3Rh/pWgXrfGEV6Vtmhy#https://gitee.com/fangxx3863/overwall_backup/raw/master/ONywPfH3Rh/pWgXrfGEV6Vtmhy#g' ${root}/downbin
+sed -i 's#https://cdn.jsdelivr.net/gh/yIwIoTT9A21nupT/2aXGmlWs/ONywPfH3Rh/AlCdr6hj5qHCJmp#https://gitee.com/fangxx3863/overwall_backup/raw/master/ONywPfH3Rh/AlCdr6hj5qHCJmp#g' ${root}/downbin
+
+sed -i 's#https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/K2P_16M/xray#https://gitee.com/fangxx3863/overwall_backup/raw/master/ONywPfH3Rh/pWgXrfGEV6Vtmhy#g' ${root}/downbin
+sed -i 's#https://cdn.jsdelivr.net/gh/fangxx3863/overwall_list/K2P_16M/xray-plugin#https://gitee.com/fangxx3863/overwall_backup/raw/master/ONywPfH3Rh/AlCdr6hj5qHCJmp#g' ${root}/downbin
