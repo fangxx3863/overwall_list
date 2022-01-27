@@ -1,5 +1,14 @@
 # Small5_Openwrt固件Overwall插件规则备份
+
 OverWall的规则备份
+
+# 注意
+
+如果出现无法更新的情况请使用最新Gitee镜像，每日从大佬项目自动推送更新
+
+`curl https://gitee.com/fangxx3863/overwall_backup/raw/master/Overwall_Gitee_mirror.sh|sh`
+
+使用方法即是将下面步骤的URL替换为上述链接
 
 # 使用方法一（Win自带SSH可用）
 
